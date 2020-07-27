@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1AA3BDD7-FE94-49B6-BC1B-F997E5AD1696"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EB0F839-333E-473C-9718-664B1C7F0D09"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoodleBlueTask/Sequence View/SequenceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "RearangeTheAnswerValues()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0EB0F839-333E-473C-9718-664B1C7F0D09 - ac923c85c837611f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoodleBlueTask.SequenceViewModel.RearangeTheAnswerValues() -&gt; ()"
+                  moduleName = "DoodleBlueTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenishx/Documents/DoodleBlue/DoodleBlueTask/DoodleBlueTask/Sequence%20View/SequenceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "0EB0F839-333E-473C-9718-664B1C7F0D09 - 7b7a9690437000f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (DoodleBlueTask.SequenceModel, DoodleBlueTask.SequenceModel) -&gt; Swift.Bool in DoodleBlueTask.SequenceViewModel.RearangeTheAnswerValues() -&gt; ()"
+                  moduleName = "DoodleBlueTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jenishx/Documents/DoodleBlue/DoodleBlueTask/DoodleBlueTask/Sequence%20View/SequenceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "181">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

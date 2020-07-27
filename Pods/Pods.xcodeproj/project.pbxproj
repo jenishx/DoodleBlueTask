@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		128598B092C90315CEC3DFAEC20C1B35 /* Pods-DoodleBlueTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 384D6624404C9486506B8C566AD42785 /* Pods-DoodleBlueTask-dummy.m */; };
+		13AA6473E9D12DECE5441AE2AF9A5EC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		175F76BE58A364CDB048165CD2855538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		34E60ED373398DDC75778DC8B0D769FC /* EzPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF421703B2D2C25FF576117795B176F /* EzPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BC5D2B556E4A5DB3F4D56CF43FA7088 /* Pods-DoodleBlueTaskTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2AF430C87CEB590B9EE8140528406A6 /* Pods-DoodleBlueTaskTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F3B2A112B8C751E0C1291A98E5B7D7 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BFF84930B5E93D93B639FD2F8C2240 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66CA5BC10BCA353EA406A647510A71A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6E5830E808774B9D55FBDC49758D19CE /* Pods-DoodleBlueTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DFBA7F5F483A86718C28B9FF643FAC /* Pods-DoodleBlueTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8127D107F1BDA547AD0B549BF9762EF4 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1F9E9499417B2B14DF7604FFDF793D /* PopupViewController.swift */; };
+		A5CDAB10DCD6FB3CA81AB4DB08332A1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B2F3D8F6B9B1E6F1FEA2004E5CE7C5D9 /* Pods-DoodleBlueTaskTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6559D07765220F494E9A15180CFBDA8C /* Pods-DoodleBlueTaskTests-dummy.m */; };
+		C5259644DAD6F4DB00553D37A706A229 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D4F88EB3E4207DE62B3750F48DD95 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-dummy.m */; };
+		F0EEB4C57FC95788D96D6CFAF990C49E /* EzPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AF0EE896DB92BB25D5923403AEFEB7 /* EzPopup-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35DC60404D750E12B6E031DA773F391C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD189E03CC738EEF582A65D246BD09F0;
+			remoteInfo = "Pods-DoodleBlueTask";
+		};
+		ABAD7DC220A7C017032E8A0A1E23AC76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A1D84C2FADBB24163DC3D193767386;
+			remoteInfo = EzPopup;
+		};
+		BD99310B64CF45A19C4CC167CE0BFB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A1D84C2FADBB24163DC3D193767386;
+			remoteInfo = EzPopup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0933B8BF5C8D034B4D3F96998B6C73B1 /* Pods-DoodleBlueTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoodleBlueTask.release.xcconfig"; sourceTree = "<group>"; };
+		09D0354E48B80B9BCC980248B833BB99 /* Pods-DoodleBlueTaskTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoodleBlueTaskTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C6D4F88EB3E4207DE62B3750F48DD95 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoodleBlueTask-DoodleBlueTaskUITests-dummy.m"; sourceTree = "<group>"; };
+		1F140C933CC17D37E1F2AD63A30C6FC6 /* EzPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EzPopup.modulemap; sourceTree = "<group>"; };
+		25860E10DA8A35920D830C2DA68285D9 /* Pods-DoodleBlueTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoodleBlueTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		2932755D695A27C29F6B5472EB6EEA15 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoodleBlueTask-DoodleBlueTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		384D6624404C9486506B8C566AD42785 /* Pods-DoodleBlueTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoodleBlueTask-dummy.m"; sourceTree = "<group>"; };
+		392397E63B2B46BB1687EB3EF08C13EA /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoodleBlueTask-DoodleBlueTaskUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3941C857976F9CDF7D9F01A258C296C9 /* Pods_DoodleBlueTask_DoodleBlueTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DoodleBlueTask_DoodleBlueTaskUITests.framework; path = "Pods-DoodleBlueTask-DoodleBlueTaskUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A9D8763CF0E5A8DA1D02AE1C7EE7B3 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DoodleBlueTask-DoodleBlueTaskUITests-frameworks.sh"; sourceTree = "<group>"; };
+		536662F4BAE2981262944329F9588690 /* EzPopup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EzPopup.xcconfig; sourceTree = "<group>"; };
+		5ABC73861B5CE446DDFEE27CF9E4913D /* Pods-DoodleBlueTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoodleBlueTask.debug.xcconfig"; sourceTree = "<group>"; };
+		6309C24C42433B70E0C56540773B435C /* Pods-DoodleBlueTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoodleBlueTask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6559D07765220F494E9A15180CFBDA8C /* Pods-DoodleBlueTaskTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoodleBlueTaskTests-dummy.m"; sourceTree = "<group>"; };
+		70C0E314FD9505CD14B40C2A33F3CA7A /* Pods-DoodleBlueTask-DoodleBlueTaskUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoodleBlueTask-DoodleBlueTaskUITests.modulemap"; sourceTree = "<group>"; };
+		7E04694284ECE7F371A4DB86CDE04DD9 /* EzPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EzPopup.framework; path = EzPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8487C25D8964CCDECA8DBC1AB4A031CE /* Pods-DoodleBlueTaskTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoodleBlueTaskTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84BFF84930B5E93D93B639FD2F8C2240 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoodleBlueTask-DoodleBlueTaskUITests-umbrella.h"; sourceTree = "<group>"; };
+		899C31EBB5442FCF088B4EDBDF24A5AB /* Pods_DoodleBlueTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DoodleBlueTask.framework; path = "Pods-DoodleBlueTask.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		931957B4C66207F0834E89BF5EF5F9A2 /* Pods-DoodleBlueTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoodleBlueTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A26F7EEEDC1B4516D811DF0A22F9289F /* Pods-DoodleBlueTask-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoodleBlueTask-Info.plist"; sourceTree = "<group>"; };
+		ACB7F85BD12186000F318A068A5E1545 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoodleBlueTask-DoodleBlueTaskUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADA7982A7472F469B58D78C54C1FA105 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoodleBlueTask-DoodleBlueTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE5C5D1BB4EB914731D8C8CF58ECF2D0 /* Pods-DoodleBlueTaskTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoodleBlueTaskTests-Info.plist"; sourceTree = "<group>"; };
+		AEF421703B2D2C25FF576117795B176F /* EzPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-umbrella.h"; sourceTree = "<group>"; };
+		C8AF0EE896DB92BB25D5923403AEFEB7 /* EzPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EzPopup-dummy.m"; sourceTree = "<group>"; };
+		C9BBEF4E1AACD9EAE2693D4EC6B07B73 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoodleBlueTask-DoodleBlueTaskUITests-Info.plist"; sourceTree = "<group>"; };
+		CB1F9E9499417B2B14DF7604FFDF793D /* PopupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupViewController.swift; path = EzPopup/Classes/PopupViewController.swift; sourceTree = "<group>"; };
+		D27FEBE81D1D90216C26D9B7F6DFA939 /* Pods_DoodleBlueTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DoodleBlueTaskTests.framework; path = "Pods-DoodleBlueTaskTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AF430C87CEB590B9EE8140528406A6 /* Pods-DoodleBlueTaskTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoodleBlueTaskTests-umbrella.h"; sourceTree = "<group>"; };
+		DA9CEB244A1FCC682CAB79CF3AAFA6D4 /* Pods-DoodleBlueTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DoodleBlueTask-frameworks.sh"; sourceTree = "<group>"; };
+		DF9E2CDD097008153AEC5A526983A22C /* Pods-DoodleBlueTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoodleBlueTask.modulemap"; sourceTree = "<group>"; };
+		E3D8FE30A6E2939A2B740F9C0CA71FCE /* EzPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-prefix.pch"; sourceTree = "<group>"; };
+		E4DFBA7F5F483A86718C28B9FF643FAC /* Pods-DoodleBlueTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoodleBlueTask-umbrella.h"; sourceTree = "<group>"; };
+		ECD4F0892C68442D919F661B65AEE34B /* Pods-DoodleBlueTaskTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoodleBlueTaskTests.modulemap"; sourceTree = "<group>"; };
+		EDB9F06EF87E4F30D62242A15592CCB5 /* EzPopup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EzPopup-Info.plist"; sourceTree = "<group>"; };
+		F035C25CD7A29EBEBF4D15C78A537BF6 /* Pods-DoodleBlueTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoodleBlueTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326B9ECCA5307C338D4CAD1698029F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AA6473E9D12DECE5441AE2AF9A5EC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD73C2BE74152CF62C2AEA87CF3CE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CDAB10DCD6FB3CA81AB4DB08332A1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493ED6312F7553FAB215F38425F8CEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175F76BE58A364CDB048165CD2855538 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05100E5A660212D1E50EEDC2313891C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CA5BC10BCA353EA406A647510A71A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C44244F3A3772CA1C4C690D3267DAF /* Pods-DoodleBlueTask */ = {
+			isa = PBXGroup;
+			children = (
+				DF9E2CDD097008153AEC5A526983A22C /* Pods-DoodleBlueTask.modulemap */,
+				6309C24C42433B70E0C56540773B435C /* Pods-DoodleBlueTask-acknowledgements.markdown */,
+				25860E10DA8A35920D830C2DA68285D9 /* Pods-DoodleBlueTask-acknowledgements.plist */,
+				384D6624404C9486506B8C566AD42785 /* Pods-DoodleBlueTask-dummy.m */,
+				DA9CEB244A1FCC682CAB79CF3AAFA6D4 /* Pods-DoodleBlueTask-frameworks.sh */,
+				A26F7EEEDC1B4516D811DF0A22F9289F /* Pods-DoodleBlueTask-Info.plist */,
+				E4DFBA7F5F483A86718C28B9FF643FAC /* Pods-DoodleBlueTask-umbrella.h */,
+				5ABC73861B5CE446DDFEE27CF9E4913D /* Pods-DoodleBlueTask.debug.xcconfig */,
+				0933B8BF5C8D034B4D3F96998B6C73B1 /* Pods-DoodleBlueTask.release.xcconfig */,
+			);
+			name = "Pods-DoodleBlueTask";
+			path = "Target Support Files/Pods-DoodleBlueTask";
+			sourceTree = "<group>";
+		};
+		7989512551F14AEAB438CA44CB6C91FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E04694284ECE7F371A4DB86CDE04DD9 /* EzPopup.framework */,
+				899C31EBB5442FCF088B4EDBDF24A5AB /* Pods_DoodleBlueTask.framework */,
+				3941C857976F9CDF7D9F01A258C296C9 /* Pods_DoodleBlueTask_DoodleBlueTaskUITests.framework */,
+				D27FEBE81D1D90216C26D9B7F6DFA939 /* Pods_DoodleBlueTaskTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965A6F5882494E30E20B5A743934C8CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F140C933CC17D37E1F2AD63A30C6FC6 /* EzPopup.modulemap */,
+				536662F4BAE2981262944329F9588690 /* EzPopup.xcconfig */,
+				C8AF0EE896DB92BB25D5923403AEFEB7 /* EzPopup-dummy.m */,
+				EDB9F06EF87E4F30D62242A15592CCB5 /* EzPopup-Info.plist */,
+				E3D8FE30A6E2939A2B740F9C0CA71FCE /* EzPopup-prefix.pch */,
+				AEF421703B2D2C25FF576117795B176F /* EzPopup-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EzPopup";
+			sourceTree = "<group>";
+		};
+		993FAEF8E635B54DDE21158420162439 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70C0E314FD9505CD14B40C2A33F3CA7A /* Pods-DoodleBlueTask-DoodleBlueTaskUITests.modulemap */,
+				ACB7F85BD12186000F318A068A5E1545 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-acknowledgements.markdown */,
+				392397E63B2B46BB1687EB3EF08C13EA /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-acknowledgements.plist */,
+				1C6D4F88EB3E4207DE62B3750F48DD95 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-dummy.m */,
+				47A9D8763CF0E5A8DA1D02AE1C7EE7B3 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-frameworks.sh */,
+				C9BBEF4E1AACD9EAE2693D4EC6B07B73 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-Info.plist */,
+				84BFF84930B5E93D93B639FD2F8C2240 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-umbrella.h */,
+				ADA7982A7472F469B58D78C54C1FA105 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests.debug.xcconfig */,
+				2932755D695A27C29F6B5472EB6EEA15 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests.release.xcconfig */,
+			);
+			name = "Pods-DoodleBlueTask-DoodleBlueTaskUITests";
+			path = "Target Support Files/Pods-DoodleBlueTask-DoodleBlueTaskUITests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC5903746BA3A1326A72A595BDB09F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3FC48C6909B8B378F2CC4F44C65E21C /* EzPopup */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CC5903746BA3A1326A72A595BDB09F2D /* Pods */,
+				7989512551F14AEAB438CA44CB6C91FC /* Products */,
+				E554B61FA65F406CBE179C947773F965 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3FC48C6909B8B378F2CC4F44C65E21C /* EzPopup */ = {
+			isa = PBXGroup;
+			children = (
+				CB1F9E9499417B2B14DF7604FFDF793D /* PopupViewController.swift */,
+				965A6F5882494E30E20B5A743934C8CC /* Support Files */,
+			);
+			name = EzPopup;
+			path = EzPopup;
+			sourceTree = "<group>";
+		};
+		E554B61FA65F406CBE179C947773F965 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13C44244F3A3772CA1C4C690D3267DAF /* Pods-DoodleBlueTask */,
+				993FAEF8E635B54DDE21158420162439 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests */,
+				F42857A1626FD01F39334307466DF032 /* Pods-DoodleBlueTaskTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F42857A1626FD01F39334307466DF032 /* Pods-DoodleBlueTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD4F0892C68442D919F661B65AEE34B /* Pods-DoodleBlueTaskTests.modulemap */,
+				8487C25D8964CCDECA8DBC1AB4A031CE /* Pods-DoodleBlueTaskTests-acknowledgements.markdown */,
+				09D0354E48B80B9BCC980248B833BB99 /* Pods-DoodleBlueTaskTests-acknowledgements.plist */,
+				6559D07765220F494E9A15180CFBDA8C /* Pods-DoodleBlueTaskTests-dummy.m */,
+				AE5C5D1BB4EB914731D8C8CF58ECF2D0 /* Pods-DoodleBlueTaskTests-Info.plist */,
+				D2AF430C87CEB590B9EE8140528406A6 /* Pods-DoodleBlueTaskTests-umbrella.h */,
+				931957B4C66207F0834E89BF5EF5F9A2 /* Pods-DoodleBlueTaskTests.debug.xcconfig */,
+				F035C25CD7A29EBEBF4D15C78A537BF6 /* Pods-DoodleBlueTaskTests.release.xcconfig */,
+			);
+			name = "Pods-DoodleBlueTaskTests";
+			path = "Target Support Files/Pods-DoodleBlueTaskTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59EA33E5454274583BEFF6181EBD1E7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC5D2B556E4A5DB3F4D56CF43FA7088 /* Pods-DoodleBlueTaskTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA212F0B4A8B1BA8DD5E44ABABF4767 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E60ED373398DDC75778DC8B0D769FC /* EzPopup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F81F509EBF71D2F04BC2E5740AF3839 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F3B2A112B8C751E0C1291A98E5B7D7 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCC8EAC7DE7D5D73B890A0579995F8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5830E808774B9D55FBDC49758D19CE /* Pods-DoodleBlueTask-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08A1D84C2FADBB24163DC3D193767386 /* EzPopup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAA309E0B9EEC5C3E46DD4EC0CC7B9F /* Build configuration list for PBXNativeTarget "EzPopup" */;
+			buildPhases = (
+				5BA212F0B4A8B1BA8DD5E44ABABF4767 /* Headers */,
+				EDA9FF9AD8B441865024B8BFF4E400B2 /* Sources */,
+				493ED6312F7553FAB215F38425F8CEAC /* Frameworks */,
+				F8DD39341301F6363B7A5E914320012E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzPopup;
+			productName = EzPopup;
+			productReference = 7E04694284ECE7F371A4DB86CDE04DD9 /* EzPopup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD189E03CC738EEF582A65D246BD09F0 /* Pods-DoodleBlueTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF121F9AC8004043F0F69EE5DE914224 /* Build configuration list for PBXNativeTarget "Pods-DoodleBlueTask" */;
+			buildPhases = (
+				ECCC8EAC7DE7D5D73B890A0579995F8B /* Headers */,
+				ACCF5D6AD62647881FF3775F7752CCFE /* Sources */,
+				326B9ECCA5307C338D4CAD1698029F96 /* Frameworks */,
+				1AC5C5073C76CF96F9CF16DB1D717289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A8729CEC7C16C9A94D9E2FF2ACFA532 /* PBXTargetDependency */,
+			);
+			name = "Pods-DoodleBlueTask";
+			productName = "Pods-DoodleBlueTask";
+			productReference = 899C31EBB5442FCF088B4EDBDF24A5AB /* Pods_DoodleBlueTask.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F59BFE6D6B965EF83A05B7C11733BEC8 /* Pods-DoodleBlueTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178254D4E13DDFE707E185186103A6D6 /* Build configuration list for PBXNativeTarget "Pods-DoodleBlueTaskTests" */;
+			buildPhases = (
+				59EA33E5454274583BEFF6181EBD1E7A /* Headers */,
+				65162B5B871260FF02E9AC0D0AE3B5B0 /* Sources */,
+				F05100E5A660212D1E50EEDC2313891C /* Frameworks */,
+				187626CF61CE601C9F54F31892E6B364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830536AAE7304D6D22EB0EE9A64A6FC6 /* PBXTargetDependency */,
+			);
+			name = "Pods-DoodleBlueTaskTests";
+			productName = "Pods-DoodleBlueTaskTests";
+			productReference = D27FEBE81D1D90216C26D9B7F6DFA939 /* Pods_DoodleBlueTaskTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9AFBCDFE10ADEBCD03FB33D5467C44F /* Pods-DoodleBlueTask-DoodleBlueTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9C2C468EC52A041FF1F661821DC384 /* Build configuration list for PBXNativeTarget "Pods-DoodleBlueTask-DoodleBlueTaskUITests" */;
+			buildPhases = (
+				6F81F509EBF71D2F04BC2E5740AF3839 /* Headers */,
+				BF17F9C9CD2786DAF8A5B7C072747FB8 /* Sources */,
+				3DD73C2BE74152CF62C2AEA87CF3CE8F /* Frameworks */,
+				F7E5B91FBED9E507003808A5E46ECEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D393C6160874250B3127D13BDBC691B /* PBXTargetDependency */,
+			);
+			name = "Pods-DoodleBlueTask-DoodleBlueTaskUITests";
+			productName = "Pods-DoodleBlueTask-DoodleBlueTaskUITests";
+			productReference = 3941C857976F9CDF7D9F01A258C296C9 /* Pods_DoodleBlueTask_DoodleBlueTaskUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7989512551F14AEAB438CA44CB6C91FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A1D84C2FADBB24163DC3D193767386 /* EzPopup */,
+				DD189E03CC738EEF582A65D246BD09F0 /* Pods-DoodleBlueTask */,
+				F9AFBCDFE10ADEBCD03FB33D5467C44F /* Pods-DoodleBlueTask-DoodleBlueTaskUITests */,
+				F59BFE6D6B965EF83A05B7C11733BEC8 /* Pods-DoodleBlueTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187626CF61CE601C9F54F31892E6B364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC5C5073C76CF96F9CF16DB1D717289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E5B91FBED9E507003808A5E46ECEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DD39341301F6363B7A5E914320012E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65162B5B871260FF02E9AC0D0AE3B5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F3D8F6B9B1E6F1FEA2004E5CE7C5D9 /* Pods-DoodleBlueTaskTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCF5D6AD62647881FF3775F7752CCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128598B092C90315CEC3DFAEC20C1B35 /* Pods-DoodleBlueTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF17F9C9CD2786DAF8A5B7C072747FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5259644DAD6F4DB00553D37A706A229 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA9FF9AD8B441865024B8BFF4E400B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EEB4C57FC95788D96D6CFAF990C49E /* EzPopup-dummy.m in Sources */,
+				8127D107F1BDA547AD0B549BF9762EF4 /* PopupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D393C6160874250B3127D13BDBC691B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EzPopup;
+			target = 08A1D84C2FADBB24163DC3D193767386 /* EzPopup */;
+			targetProxy = ABAD7DC220A7C017032E8A0A1E23AC76 /* PBXContainerItemProxy */;
+		};
+		7A8729CEC7C16C9A94D9E2FF2ACFA532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EzPopup;
+			target = 08A1D84C2FADBB24163DC3D193767386 /* EzPopup */;
+			targetProxy = BD99310B64CF45A19C4CC167CE0BFB03 /* PBXContainerItemProxy */;
+		};
+		830536AAE7304D6D22EB0EE9A64A6FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DoodleBlueTask";
+			target = DD189E03CC738EEF582A65D246BD09F0 /* Pods-DoodleBlueTask */;
+			targetProxy = 35DC60404D750E12B6E031DA773F391C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11242B41EFEDEFF719A6A5C30AA46F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA7982A7472F469B58D78C54C1FA105 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoodleBlueTask-DoodleBlueTaskUITests/Pods-DoodleBlueTask-DoodleBlueTaskUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoodleBlueTask-DoodleBlueTaskUITests/Pods-DoodleBlueTask-DoodleBlueTaskUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16B23A0EA71B3F877E989F2FE4393892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F035C25CD7A29EBEBF4D15C78A537BF6 /* Pods-DoodleBlueTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoodleBlueTaskTests/Pods-DoodleBlueTaskTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoodleBlueTaskTests/Pods-DoodleBlueTaskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		326B8076425DCD28E4D60F3765F304B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2932755D695A27C29F6B5472EB6EEA15 /* Pods-DoodleBlueTask-DoodleBlueTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoodleBlueTask-DoodleBlueTaskUITests/Pods-DoodleBlueTask-DoodleBlueTaskUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoodleBlueTask-DoodleBlueTaskUITests/Pods-DoodleBlueTask-DoodleBlueTaskUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CC1C4F664EA8D32030EE53A56F02551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0933B8BF5C8D034B4D3F96998B6C73B1 /* Pods-DoodleBlueTask.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoodleBlueTask/Pods-DoodleBlueTask-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoodleBlueTask/Pods-DoodleBlueTask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A57A4AE64EABCF5524DAE5C170FE221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABC73861B5CE446DDFEE27CF9E4913D /* Pods-DoodleBlueTask.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoodleBlueTask/Pods-DoodleBlueTask-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoodleBlueTask/Pods-DoodleBlueTask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0561F1E73502FC63EA69A4B4C2C9403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931957B4C66207F0834E89BF5EF5F9A2 /* Pods-DoodleBlueTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoodleBlueTaskTests/Pods-DoodleBlueTaskTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoodleBlueTaskTests/Pods-DoodleBlueTaskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD68B35276A1105FF71795DAFEB62F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536662F4BAE2981262944329F9588690 /* EzPopup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EzPopup/EzPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EzPopup/EzPopup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
+				PRODUCT_MODULE_NAME = EzPopup;
+				PRODUCT_NAME = EzPopup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F8A092F75788E61A4C2444F6431ACD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536662F4BAE2981262944329F9588690 /* EzPopup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EzPopup/EzPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EzPopup/EzPopup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
+				PRODUCT_MODULE_NAME = EzPopup;
+				PRODUCT_NAME = EzPopup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178254D4E13DDFE707E185186103A6D6 /* Build configuration list for PBXNativeTarget "Pods-DoodleBlueTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0561F1E73502FC63EA69A4B4C2C9403 /* Debug */,
+				16B23A0EA71B3F877E989F2FE4393892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAA309E0B9EEC5C3E46DD4EC0CC7B9F /* Build configuration list for PBXNativeTarget "EzPopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD68B35276A1105FF71795DAFEB62F6D /* Debug */,
+				F8A092F75788E61A4C2444F6431ACD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9C2C468EC52A041FF1F661821DC384 /* Build configuration list for PBXNativeTarget "Pods-DoodleBlueTask-DoodleBlueTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11242B41EFEDEFF719A6A5C30AA46F86 /* Debug */,
+				326B8076425DCD28E4D60F3765F304B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF121F9AC8004043F0F69EE5DE914224 /* Build configuration list for PBXNativeTarget "Pods-DoodleBlueTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A57A4AE64EABCF5524DAE5C170FE221 /* Debug */,
+				4CC1C4F664EA8D32030EE53A56F02551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
